@@ -1,1 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Taufiq Ahmed — Portfolio</title>
+  <meta name="description" content="Portfolio of Taufiq Ahmed — AI, Computer Vision, UAVs, Edge Computing. University of Oulu.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji"}
+    .prose a{word-break:break-all}
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 backdrop-blur bg-white/70 border-b border-slate-200">
+    <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="#top" class="text-xl font-bold tracking-tight">Taufiq Ahmed</a>
+      <nav class="hidden md:flex gap-6 text-sm">
+        <a class="hover:opacity-80" href="#about">About</a>
+        <a class="hover:opacity-80" href="#experience">Experience</a>
+        <a class="hover:opacity-80" href="#publications">Publications</a>
+        <a class="hover:opacity-80" href="#projects">Projects</a>
+        <a class="hover:opacity-80" href="#skills">Skills</a>
+        <a class="hover:opacity-80" href="#contact">Contact</a>
+      </nav>
+      <a href="assets/CV.pdf" class="inline-flex items-center gap-2 text-sm font-semibold bg-slate-900 text-white px-3 py-2 rounded-xl shadow-sm hover:shadow transition" download>
+        Download CV
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="about" class="max-w-5xl mx-auto px-4 pt-10 md:pt-16">
+    <div class="grid md:grid-cols-[200px_1fr] gap-8 items-start">
+      <div class="w-40 h-40 md:w-48 md:h-48 rounded-2xl bg-gradient-to-br from-slate-200 to-slate-300 overflow-hidden shadow-inner">
+        <!-- Place headshot as assets/headshot.jpg -->
+        <img src="assets/headshot.jpg" alt="Taufiq Ahmed" class="w-full h-full object-cover hidden" onerror="this.previousElementSibling.style.display='block'">
+      </div>
+      <div>
+        <h1 class="text-3xl md:text-4xl font-extrabold tracking-tight">Project Researcher @ University of Oulu</h1>
+        <p class="mt-4 text-slate-600 leading-relaxed">I work at the intersection of <strong>AI, computer vision, UAVs</strong>, and <strong>edge computing</strong>. I build efficient perception systems for resource‑constrained platforms and design methods to improve long‑tailed object detection. Currently at the <strong>Center for Machine Vision and Signal Analysis (CMVS)</strong>, focusing on Digital Twins for robotics and ISAC.</p>
+        <div class="mt-5 flex flex-wrap gap-3">
+          <a class="px-3 py-1.5 rounded-full bg-slate-900 text-white text-xs" href="#publications">E‑IRFS (IROS 2025)</a>
+          <span class="px-3 py-1.5 rounded-full bg-slate-200 text-slate-700 text-xs">YOLOv11</span>
+          <span class="px-3 py-1.5 rounded-full bg-slate-200 text-slate-700 text-xs">ROS 2</span>
+          <span class="px-3 py-1.5 rounded-full bg-slate-200 text-slate-700 text-xs">TensorRT</span>
+        </div>
+        <div class="mt-6 flex flex-wrap gap-3 text-sm">
+          <a class="underline hover:no-underline" href="mailto:taufiqahmed806@gmail.com">taufiqahmed806@gmail.com</a>
+          <span>·</span>
+          <a class="underline hover:no-underline" href="https://linkedin.com/in/taufiq-ahmed-pranto" target="_blank" rel="noopener">LinkedIn</a>
+          <span>·</span>
+          <a class="underline hover:no-underline" href="https://github.com/Taufiq-Ahmed-pranto" target="_blank" rel="noopener">GitHub</a>
+          <span>·</span>
+          <a class="underline hover:no-underline" href="https://scholar.google.com/citations?hl=en&user=bTTmnvIAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+          <span>·</span>
+          <a class="underline hover:no-underline" href="https://urn.fi/URN:NBN:fi:oulu-202505163554" target="_blank" rel="noopener">Thesis</a>
+        </div>
+        <p class="mt-4 text-sm text-slate-500">Based in Oulu, Finland.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="max-w-5xl mx-auto px-4 mt-12" aria-labelledby="education-title">
+    <h2 id="education-title" class="text-2xl font-bold">Education</h2>
+    <div class="mt-4 grid gap-4">
+      <article class="p-4 rounded-2xl bg-white border border-slate-200 shadow-sm">
+        <div class="flex items-center justify-between flex-wrap gap-2">
+          <h3 class="font-semibold">M.Sc., Computer Science and Engineering — University of Oulu</h3>
+          <span class="text-sm text-slate-500">Aug 2023 – May 2025</span>
+        </div>
+        <p class="text-sm text-slate-600 mt-1">CGPA 4.33/5.00. Thesis: <em>Long‑Tailed Object Detection on UAVs</em> (5/5). Developed E‑IRFS and optimized YOLOv11 for real‑time UAV deployment via model quantization.</p>
+      </article>
+      <article class="p-4 rounded-2xl bg-white border border-slate-200 shadow-sm">
+        <div class="flex items-center justify-between flex-wrap gap-2">
+          <h3 class="font-semibold">B.Sc., Computer Science and Engineering — Daffodil International University</h3>
+          <span class="text-sm text-slate-500">Jan 2018 – Feb 2022</span>
+        </div>
+        <p class="text-sm text-slate-600 mt-1">CGPA 3.89/4.00.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="max-w-5xl mx-auto px-4 mt-12" aria-labelledby="exp-title">
+    <h2 id="exp-title" class="text-2xl font-bold">Experience</h2>
+    <div class="mt-4 grid gap-4">
+      <article class="p-4 rounded-2xl bg-white border border-slate-200 shadow-sm">
+        <div class="flex items-center justify-between flex-wrap gap-2">
+          <h3 class="font-semibold">Project Researcher — CMVS, University of Oulu</h3>
+          <span class="text-sm text-slate-500">Mar 2025 – Present</span>
+        </div>
+        <p class="text-sm text-slate-600 mt-1">Research on Digital Twins for robotics and Integrated Sensing & Communication (ISAC). Supervisor: Praneeth Susarla.</p>
+      </article>
+      <article class="p-4 rounded-2xl bg-white border border-slate-200 shadow-sm">
+        <div class="flex items-center justify-between flex-wrap gap-2">
+          <h3 class="font-semibold">Research Assistant — UBICOM (Interactive Edge), University of Oulu</h3>
+          <span class="text-sm text-slate-500">Jun 2024 – Dec 2024</span>
+        </div>
+        <p class="text-sm text-slate-600 mt-1">Developed AI models for UAV path planning and deployed real‑time decision‑making models on edge devices. Supervisor: Dr. Abhishek Kumar.</p>
+      </article>
+      <article class="p-4 rounded-2xl bg-white border border-slate-200 shadow-sm">
+        <div class="flex items-center justify-between flex-wrap gap-2">
+          <h3 class="font-semibold">Research Assistant — Daffodil International University</h3>
+          <span class="text-sm text-slate-500">Jan 2021 – May 2022</span>
+        </div>
+        <p class="text-sm text-slate-600 mt-1">Research in natural language processing and recommendation systems. Supervisor: MD. Abdus Sattar.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Funding & Grants -->
+  <section class="max-w-5xl mx-auto px-4 mt-12" aria-labelledby="grants-title">
+    <h2 id="grants-title" class="text-2xl font-bold">Research Funding & Grants</h2>
+    <ul class="mt-4 list-disc pl-6 text-sm text-slate-700 space-y-2">
+      <li>Contributed to the Finland Fireman Project for AI‑assisted UAV search and rescue.</li>
+      <li>Working on CONVERGE Project under the EU Horizon Europe programme.</li>
+    </ul>
+  </section>
+
+  <!-- Publications -->
+  <section id="publications" class="max-w-5xl mx-auto px-4 mt-12" aria-labelledby="pubs-title">
+    <h2 id="pubs-title" class="text-2xl font-bold">Selected Publications</h2>
+    <ol class="mt-4 list-decimal pl-6 text-sm text-slate-700 space-y-3">
+      <li>
+        Ahmed, T., Kumar, A., Casado, C. A., Zhang, A., <span class="italic">et al.</span> (2025). Exponentially Weighted Instance‑Aware Repeat Factor Sampling for Long‑Tailed Object Detection Model Training in UAV Surveillance. <span class="italic">arXiv</span>. 
+        <a class="underline" href="https://arxiv.org/abs/2503.21893" target="_blank" rel="noopener">arxiv.org/abs/2503.21893</a>
+      </li>
+      <li>
+        Das, R., Hossain, M. F., Ahmed, T., <span class="italic">et al.</span> (2022). Classification of Product Review Sentiment by NLP and Machine Learning. In <span class="italic">ICAECT 2022</span>, IEEE.
+      </li>
+      <li>
+        Ahmed, T., Akhter, L., Talukder, F. R., Rahman, H., Sattar, A. (2021). Restaurant Recommendation System in Dhaka City Using Machine Learning Approach. In <span class="italic">SMART 2021</span>, IEEE.
+      </li>
+    </ol>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="max-w-5xl mx-auto px-4 mt-12" aria-labelledby="projects-title">
+    <h2 id="projects-title" class="text-2xl font-bold">Projects</h2>
+    <div class="mt-5 grid md:grid-cols-2 gap-5">
+      <!-- Card -->
+      <article class="group p-5 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-md transition">
+        <h3 class="font-semibold">AI‑Assisted Dynamic Waypoint Selection Using UAV</h3>
+        <p class="mt-2 text-sm text-slate-600">Optimized AI models for dynamic waypoint selection in UAV search‑and‑rescue missions.</p>
+        <a class="mt-3 inline-flex items-center gap-2 text-sm underline" href="https://github.com/Taufiq-Ahmed-pranto/AI-Assisted-Dynamic-Waypoint-Selection-Using-UAV" target="_blank" rel="noopener">GitHub</a>
+      </article>
+      <article class="group p-5 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-md transition">
+        <h3 class="font-semibold">Twitter Emotion Analysis</h3>
+        <p class="mt-2 text-sm text-slate-600">Categorized emotional content in Twitter datasets using ML techniques.</p>
+        <a class="mt-3 inline-flex items-center gap-2 text-sm underline" href="https://github.com/Taufiq-Ahmed-pranto/Kaggle-Text-To-Emotion" target="_blank" rel="noopener">GitHub</a>
+      </article>
+      <article class="group p-5 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-md transition">
+        <h3 class="font-semibold">Customer Segmentation for Marketing</h3>
+        <p class="mt-2 text-sm text-slate-600">Built segmentation with K‑means and Random Forest.</p>
+        <a class="mt-3 inline-flex items-center gap-2 text-sm underline" href="https://github.com/Taufiq-Ahmed-pranto/Customer-Segmentation-for-Targeted-Marketing-Strategies.git" target="_blank" rel="noopener">GitHub</a>
+      </article>
+      <article class="group p-5 rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-md transition">
+        <h3 class="font-semibold">Bengali Emotion Recognition</h3>
+        <p class="mt-2 text-sm text-slate-600">Applied deep learning for emotion detection in Bengali textual data.</p>
+        <a class="mt-3 inline-flex items-center gap-2 text-sm underline" href="https://github.com/Taufiq-Ahmed-pranto/AffectiveComputing" target="_blank" rel="noopener">GitHub</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="max-w-5xl mx-auto px-4 mt-12" aria-labelledby="skills-title">
+    <h2 id="skills-title" class="text-2xl font-bold">Skills</h2>
+    <div class="mt-4 grid md:grid-cols-2 gap-4 text-sm">
+      <ul class="list-disc pl-6 space-y-1 text-slate-700">
+        <li><strong>Programming:</strong> Python (Advanced), C++ (Intermediate), Bash</li>
+        <li><strong>CV & Detection:</strong> OpenCV, Ultralytics, TensorFlow, PyTorch</li>
+        <li><strong>Robotics & DT:</strong> ROS2, Gazebo, RViz</li>
+      </ul>
+      <ul class="list-disc pl-6 space-y-1 text-slate-700">
+        <li><strong>Edge AI:</strong> TensorRT, NVIDIA Jetson, Quantization</li>
+        <li><strong>ML/AI:</strong> Scikit‑learn, XGBoost, CNNs, Transformers</li>
+        <li><strong>Data & Cloud:</strong> Pandas, NumPy, Matplotlib, Seaborn; PostgreSQL, MySQL, AWS (Basics)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Awards -->
+  <section class="max-w-5xl mx-auto px-4 mt-12" aria-labelledby="awards-title">
+    <h2 id="awards-title" class="text-2xl font-bold">Awards & Honours</h2>
+    <ul class="mt-4 list-disc pl-6 text-sm text-slate-700 space-y-2">
+      <li>Three peer‑reviewed IEEE conference papers; one paper accepted to <strong>IROS 2025</strong>.</li>
+      <li>Selected for competitive research assistant positions in Finland and Bangladesh.</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-5xl mx-auto px-4 mt-12 mb-20" aria-labelledby="contact-title">
+    <h2 id="contact-title" class="text-2xl font-bold">Contact</h2>
+    <div class="mt-4 grid md:grid-cols-[1fr_auto] items-start gap-6">
+      <p class="text-sm text-slate-600">Open to research collaborations, PhD opportunities, and applied AI projects. Email is the best way to reach me.</p>
+      <a href="mailto:taufiqahmed806@gmail.com" class="inline-flex items-center justify-center px-4 py-2 rounded-xl bg-slate-900 text-white text-sm font-semibold shadow-sm hover:shadow">Email me</a>
+    </div>
+    <p class="mt-4 text-xs text-slate-500">Address: Yliopistokatu 24 C, 90570 Oulu, Finland · Phone: +358 46 9518233</p>
+  </section>
+
+  <footer class="border-t border-slate-200 bg-white">
+    <div class="max-w-5xl mx-auto px-4 py-8 text-xs text-slate-500 flex flex-wrap items-center justify-between gap-3">
+      <span>© <span id="year"></span> Taufiq Ahmed</span>
+      <span>Built with HTML + Tailwind. Hosted on GitHub Pages.</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
 
